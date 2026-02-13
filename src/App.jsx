@@ -61,7 +61,7 @@ function App() {
         ))}
          </div>
           <div className='task-box'>
-            <h1>Add Your Dalay Task</h1>
+            <h1>Add Your Daly Task</h1>
             <input type="text" placeholder='Enter Your Task' value={text} onChange={(e)=>setText(e.target.value)}/>
             <button onClick={Addtask} >Add Task</button>
           </div>
